@@ -3,7 +3,7 @@
     <groupId>net.daboross.bukkitdev</groupId>
     <artifactId>DeathDemote</artifactId>
     <packaging>jar</packaging>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
     <name>DeathDemote</name>
     <repositories>
         <repository>
@@ -16,7 +16,7 @@
         </repository>
     </repositories>
     <build>
-        <finalName>DeathDemote</finalName>
+        <finalName>${project.name}</finalName>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
@@ -36,7 +36,7 @@
         <dependency>
             <groupId>org.bukkit</groupId>
             <artifactId>bukkit</artifactId>
-            <version>1.6.1-R0.1-SNAPSHOT</version>
+            <version>1.6.2-R0.1-SNAPSHOT</version>
             <type>jar</type>
             <scope>compile</scope>
         </dependency>
