@@ -1,5 +1,5 @@
 name: DeathDemote
 main: net.daboross.bukkitdev.deathdemote.DeathDemoteMain
-version: 1.0.0
+version: ${project.version}
 author: Dabo Ross
 description: DeathDemote - Demotes players on death
