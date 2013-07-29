@@ -1,4 +1,4 @@
-name: DeathDemote
+name: ${project.name}
 main: net.daboross.bukkitdev.deathdemote.DeathDemoteMain
 version: ${project.version}
 author: Dabo Ross
